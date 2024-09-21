@@ -1,0 +1,87 @@
+package idris2-ct
+-- version =
+authors = "unknown"
+-- maintainers =
+-- license =
+-- brief =
+-- readme =
+-- homepage =
+-- sourceloc =
+-- bugtracker =
+
+-- the Idris2 version required (e.g. langversion >= 0.5.1)
+-- langversion
+
+-- packages to add to search path
+-- depends =
+
+-- modules to install
+modules = Utils
+        , Basic.Category
+        , Basic.Functor
+        , Basic.Isomorphism
+        , Basic.NaturalIsomorphism
+        , Basic.NaturalTransformation
+        , Cats.CatsAsCategory
+        , Cats.FunctorsAsCategory
+        , CoLimits.CoProduct
+        , CoLimits.InitialObject
+        , Discrete.DiscreteCategory
+        , Discrete.FunctionAsFunctor
+        , Dual.DualCategory
+        , Dual.DualFunctor
+        , Free.FreeFunctor
+        , Free.Graph
+        , Free.Path
+        , Free.PathCategory
+        , Hom.HomFunctor
+        , Idris.EitherAsCoProduct
+        , Idris.FunctorAsCFunctor
+        , Idris.TypesAsCategory
+        , Idris.TypesAsCategoryExtensional
+        , Monoid.Monoid
+        , Monoid.MonoidAsCategory
+        , Monoid.MonoidMorphism
+        , Monoid.MonoidMorphismAsFunctor
+        , Monoid.MonoidsCategory
+        , MonoidalCategory.MonoidalCategory
+        , MonoidalCategory.MonoidalCategoryHelpers
+        , MonoidalCategory.StrictMonoidalCategory
+        -- , MonoidalCategory.SymmetricMonoidalCategory
+        -- , MonoidalCategory.SymmetricMonoidalCategoryHelpers
+        , PointedTypes.PointedTypesCategory
+        , Preorder.MonotoneMap
+        , Preorder.MonotoneMapAsFunctor
+        , Preorder.PreorderAsCategory
+        , Preorder.UniquePreorder
+        , Product.ProductCategory
+        , Product.ProductFunctor
+        , Profunctors.Profunctor
+
+-- main file (i.e. file to load at REPL)
+-- main =
+
+-- name of executable
+-- executable =
+-- opts =
+sourcedir = "src"
+-- builddir =
+-- outputdir =
+
+-- script to run before building
+-- prebuild =
+
+-- script to run after building
+-- postbuild =
+
+-- script to run after building, before installing
+-- preinstall =
+
+-- script to run after installing
+-- postinstall =
+
+-- script to run before cleaning
+-- preclean =
+
+-- script to run after cleaning
+-- postclean =
